@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Support</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chatbot.css">
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+</head>
+<body>
+    <header style="position: sticky;">
+    
+        <div id="header-logo">
+             <img src="./assets/gni_logo.svg" alt="GNIT Logo">
+             <div id="header-logo-text">
+                 <h3>GuruNanak Group Of Institutions</h3>
+                 <span>Dahegaon, Kalmeshwar Road, Nagpur, Maharashtra 441502</span>
+             </div>
+         </div>
+ 
+         <div id="header-contact">
+             <h3>Contact Us :</h3>
+             <div id="header-contact-details">
+                 <span>8237947303<br>gnietnagpur@gmail.com</span>
+             </div>
+         </div>
+    </header>
+      <!--navbar-->
+    <nav class="navbar navbar-expand-xl sticky-top" id="bgrd">
+        <div class="container-fluid">
+            <div class="l-nav">
+                <img src="./assets/gni_logo.svg" alt="GNIT Logo" class="nav-logo">
+                <a class="navbar-brand" href="#" style="color: white;" >GNI</a>
+            </div>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle-navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="margin: auto;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"  href="index.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="departments.html">Departments</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="admission.html">Admission</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="graduation.html">Under Graduation</a></li>
+                            <li><a class="dropdown-item" href="post_graduation.html">Post Graduation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Campus Life
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="hostel.html">Hostel</a></li>
+                            <li><a class="dropdown-item" href="canteen.html">Canteen</a></li>
+                            <li><a class="dropdown-item" href="Sports.html">Sports</a></li>
+                            <li><a class="dropdown-item" href="transportation.html">Transportation</a></li>
+                            <li><a class="dropdown-item" href="amenities.html">Amenities</a></li>
+                            <li><a class="dropdown-item" href="Library.html">Library</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" style="color: orange;" href="student_support.html">Student Support</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="placement_research.html">Placements</a>
+                    </li>
+                    
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="alumini.html">Alumini</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="careers.html">Carriers</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="contact.html">ContactUs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!------------------Navbar end-------------------->
+
+    <!--  Heading Starts-->
+    <section id="admission">
+        <h2 class="heading">Student Support & Events<span>____</span></h2>
+    </section>
+    <!-- Heading Ends-->
+    <!-- Clubs -->
+    <!-- awards class is used here to apply styling and js file of awards -->
+    <section id="awards">
+        <h6 class="subheading">Clubs</h6>
+        <section class="owl-carousel owl-theme awards">
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name"style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;" >Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            
+        </section>
+    </section>
+
+    <!-- Events section -->
+    <section id="event">
+        <h6 class="subheading">Events</h6>
+        <div class="event-container p-lg-5 p-0">
+            <img src="assets/student_support/clubs.svg" class="px-2">
+            <div class="event-desc">
+                <p class="px-sm-5 px-0">Description of the club. knowledge and skills for analyze, design, test and implement various software applications. Description of the club. knowledge and skills for analyze, design, test and implement various software applications.  analyze, software applications. Description of the club. </p>
+                <button class=" mx-0 mx-lg-5">View Events</button>
+            </div>
+        </div>
+    </section>
+    <!-- Events section ends -->
+
+    <!-- Student council starts -->
+    <section id="student-council">
+        <h6 class="subheading mb-5">Student Council</h6>
+        <div class="council-container">
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-2.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-3.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+        </div>
+    </section>
+    <!-- Student council ends -->
+
+    <!-- Academic experts -->
+    <section id="academic-expert">
+        <h6 class="subheading mb-5">Academic Experts</h6>
+        <div class="council-container">
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-2.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="council-box">
+                <img src="./assets/student_support/student-council/student-council-3.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+        </div>
+    </section>
+    <!-- Academic experts end -->
+
+    <!-- Student support services starts -->
+   
+    <section id="service">
+        <h6 class="subheading">Student Support Services</h6>
+        <section class="owl-carousel owl-theme service">
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
+            </div>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
+            </div>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
+            </div>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;" >Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
+            </div>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
+            </div>
+            
+            
+        </section>
+    </section>
+    <!-- Student support services end -->
+
+      <!--Important Updates-->
+      <div class="chatbox">
+        <div class="chatbox__support">
+            <p style="margin-left: 1rem; color: aliceblue;"><u><b>Important Updates</b></u></p>
+            <div class="cross">
+                <img src="./assets/home/download-removebg-preview (5).png" alt="">
+            </div>
+            <div class="m-list">
+                <p>Title 1</p>
+                <a href="#">View</a>
+            </div>
+            <div class="m-list">
+                <p>Title 2</p>
+                <a href="#">View</a>
+            </div>
+            <div class="m-list">
+                <p>Title 3</p>
+                <a href="#">View</a>
+            </div>
+        </div>
+        
+        <div class="chatbox__button" style="width: 160px;">
+            <img src="./assets/floating_icon.png" alt="" style="width: 20px; height: 20px;"> NOTIFICATIONS
+        </div>
+    </div>
+    <!--Footer Section-->
+    <footer id="footer" class="p-4"  style="background: #A9FFFA4F">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-10 col-md-5 col-xl-4 mt-5 mt-xl-0" id="footer-logo">
+                    <a class="brand" href="index.html">
+                        <img class="brand-logo-light" src="assets/gni_logo.svg" alt="" >
+                    </a>
+                    <p class="logo-text">Guru Nanak Institute of Engineering and Technology</p>
+                    <h6 id="footer-address">Dahegaon, Kalmeshwar Road, Nagpur, Maharashtra-441502</h6>
+                </div>
+
+                <div class="col-8 col-md-5 col-xl-3 mt-5 mt-xl-0">
+                    <dl id="contact">
+                      <dt>CONTACT</dt>
+                      <br>
+                      <dd>8237947303</dd>
+                    </dl>
+                    <br>
+                    <dl id="email">
+                      <dt>E-MAIL</dt>
+                      <br>
+                      <dd>gnietnagpur@gmail.com
+                      </dd>
+                    </dl>
+                    <br>
+                    <dl id="social-media">
+                      <dt>CONNECT US</dt>
+                      <dd><ul class="social_footer_ul">
+                        <br>
+                        <a href="#"><img src="./assets/Group 73.svg" alt=""></a>
+                        <a href="#"><img src="./assets/Group 74.svg" alt=""></a>
+                        <a href="#"><img src="./assets/Group 75.svg" alt=""></a>
+                        </ul></dd>
+                    </dl>
+                </div>
+
+                <div class=" col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="imp-links">
+                    <dl>
+                        <dt>IMPORTANT LINKS</dt>
+                        <br>
+                        <a href="#"><dd>Annual Report</dd></a>
+                        <a href="#"><dd>Anti Ragging Squad</dd></a>
+                        <a href="#"><dd>Mandatory Disclosure</dd></a>
+                        <a href="#"><dd>Ragging Free campus</dd></a>
+                        <a href="#"><dd>Eligibility Criteria</dd></a>
+                        <a href="#"><dd>Admission Process</dd></a>
+                        <a href="#"><dd>IT Policy</dd></a>
+                        <a href="#"><dd>NAAC</dd></a>
+                    </dl>
+                </div>
+                
+                <div class="col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="quick-links">
+                    <dl>
+                        <dt>QUICK LINKS</dt>
+                        <br>
+                        <a href="#"><dd>NAAC Links</dd></a>
+                        <a href="#"><dd> www.aicte-india.org/</dd></a>
+                        <a href="#"><dd> www.rtmnuresults.org/</dd></a>
+                        <a href="#"><dd> www.dtemaharashtra.gov.in</dd></a>
+                      </dl>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <section id="copyright-text">
+        <span><span class="far fa-copyright"></span> Design & Develop by Actics Technologies Pvt Ltd. All rights reserved. </span>
+    </section>
+<!-- footer section ends -->
+<script src="./js/Jquery-3.5.1.min.js"></script>
+
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/about.js"></script>
+    <script src="js/student_support.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
